@@ -1,24 +1,68 @@
 ---
 title: AI Scam Detection – Open Source Python Project
-description: AI Scam Detection is an open-source Python project for detecting pig butchering, romance scams, and social engineering patterns.
+description: AI Scam Detection is an open-source Python project for detecting pig butchering scams, romance fraud, and social engineering patterns using Python.
 ---
 
-# AI Scam Detection
+# AI Scam Detection 🛡️
 
-This site showcases the **AI Scam Detection** open‑source project on GitHub.
+![GitHub repo stars](https://img.shields.io/github/stars/louis57xl-coder/AI-Scam-Detection)
+![GitHub forks](https://img.shields.io/github/forks/louis57xl-coder/AI-Scam-Detection)
+![Python version](https://img.shields.io/badge/python-3.11-blue)
 
-This project is designed to help detect common scam patterns using Python.
+**AI Scam Detection** is an open-source Python project designed to identify common scam patterns in messages, including:
 
-🔗 **View the source code on GitHub:**  
-https://github.com/louis57xl-coder/AI-Scam-Detection
+- Pig butchering scams  
+- Romance and relationship fraud  
+- Social engineering attempts  
+
+---
 
 ## Features
 
-- Detects pig butchering scams  
-- Identifies romance or relationship fraud  
-- Analyzes patterns with heuristic or AI‑assisted logic
+- Analyze text messages for scam likelihood  
+- Python-based, easy to extend  
+- Open-source and actively maintained  
+- Works with AI-assisted heuristics  
 
-## Repository
+---
 
-Explore the code, issues, and contributions here:  
-https://github.com/louis57xl-coder/AI-Scam-Detection
+## Installation
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/louis57xl-coder/AI-Scam-Detection.git
+```
+
+2. Install dependencies:  
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+Run the main Python script and follow the prompts to analyze messages for potential scams.  
+```bash
+python scamtest.py
+```
+
+---
+
+## Links
+
+- GitHub repository: [AI Scam Detection](https://github.com/louis57xl-coder/AI-Scam-Detection)  
+- README: [Installation & Details](https://github.com/louis57xl-coder/AI-Scam-Detection#readme)
+
+---
+
+## Contributing
+
+Contributions are welcome! Open an issue or submit a pull request.  
+Keep your commits descriptive, and follow Python coding best practices.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
