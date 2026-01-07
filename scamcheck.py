@@ -3,17 +3,17 @@ import sys
 import time
 import torch
 from collections import defaultdict
-from typing import Dict
+from typing import Dict, List
 from transformers import pipeline
 
-# ──────────────────────────── SCAM DETECTION CLASS ────────────────────────────
-class BehavioralScamDetector:
+# ──────────────────────────── ADVANCED BEHAVIORAL DETECTOR ────────────────────────────
+class AdvancedBehavioralDetector:
     """
-    Detects potential romance and pig-butchering scams in text messages
-    by analyzing behavioral patterns, emotional manipulation, and investment prompts.
+    Enhanced version of BehavioralScamDetector that uses sliding windows 
+    and document-wide AI scanning to prevent truncation exploits.
     """
     def __init__(self):
-        # ALL ORIGINAL KEYWORDS PRESERVED
+        # ALL ORIGINAL KEYWORDS AND PATTERNS PRESERVED
         self.red_flags = {
             'love_bombing_intensity': [
                 "can't stop thinking","my everything","heart beats for","deep connection","you complete me","our souls one","never felt this","dream of you",
@@ -77,18 +77,12 @@ class BehavioralScamDetector:
         }
 
         self.SCAM_PATTERN_WEIGHTS = {
-            "Wrong-Number Hook": 0.50,
-            "Fast Emotional Bonding": 0.60,
-            "Lifestyle Flex": 0.65,
-            "Authority / Mentorship": 0.70,
-            "Small Test Ask": 0.60,
-            "Romance + Future Promise": 0.70,
-            "Trust Reversal": 0.80,
-            "Withdrawal Trap": 0.95,
-            "Emotional Isolation": 0.85
+            "Wrong-Number Hook": 0.50, "Fast Emotional Bonding": 0.60, "Lifestyle Flex": 0.65,
+            "Authority / Mentorship": 0.70, "Small Test Ask": 0.60, "Romance + Future Promise": 0.70,
+            "Trust Reversal": 0.80, "Withdrawal Trap": 0.95, "Emotional Isolation": 0.85
         }
 
-        print("Initializing AI Safeguards (Loading Pre-trained Models)...")
+        print("Initializing AI Safeguards (Sliding Context Analysis)...")
         self.device = 0 if torch.cuda.is_available() else -1
         self.emotion_analyzer = pipeline(
             "text-classification", 
@@ -97,76 +91,77 @@ class BehavioralScamDetector:
             device=self.device
         )
 
-    def detect_counts(self, text: str):
-        text = text.lower()
-        counts = defaultdict(int)
+    def _get_windows(self, text: str, window_size: int = 60, overlap: int = 20) -> List[str]:
+        """Splits long text into overlapping chunks to find clusters of red flags."""
+        words = text.split()
+        if len(words) <= window_size: return [text]
+        return [" ".join(words[i : i + window_size]) for i in range(0, len(words), window_size - overlap)]
+
+    def _get_full_ai_score(self, text: str) -> float:
+        """Processes entire document in chunks to prevent the 512-char truncation bypass."""
+        chunks = [text[i:i+500] for i in range(0, len(text), 500)]
+        max_peak = 0.0
+        for chunk in chunks:
+            if len(chunk.strip()) < 10: continue
+            results = self.emotion_analyzer(chunk)[0]
+            scores = {res['label']: res['score'] for res in results}
+            # Capture peak fear (Urgency) or joy (Flattery) in any part of the document
+            peak = max(scores.get('fear', 0), scores.get('joy', 0))
+            if peak > max_peak: max_peak = peak
+        return max_peak
+
+    def compute_window_probability(self, text_window: str):
+        """Calculates risk for a specific segment of the text using weighted logic."""
+        text_lower = text_window.lower()
+        matched = []
+        
+        # Check original scam patterns and red flags
         for cat, patterns in self.scam_patterns.items():
-            for pattern in patterns:
-                if re.search(pattern, text):
-                    counts[cat] += 1
+            if any(re.search(p, text_lower) for p in patterns):
+                matched.append(cat)
         for cat, keywords in self.red_flags.items():
-            for kw in keywords:
-                if kw in text:
-                    counts[cat] += 1
-        return counts
+            if any(kw in text_lower for kw in keywords):
+                matched.append(cat)
 
-    def compute_probability(self, counts):
-        """
-        Calculates probability with a NON-LINEAR boost for multiple categories.
-        """
-        matched = list(counts.keys())
-        weighted_hits = [cat for cat in matched if cat in self.SCAM_PATTERN_WEIGHTS]
-        
-        if not weighted_hits:
-            return 0.05 if counts else 0.0
+        if not matched: return 0.0, []
 
-        # Start with the HIGHEST single category weight as a baseline
+        weighted_hits = [c for c in matched if c in self.SCAM_PATTERN_WEIGHTS]
+        if not weighted_hits: return 0.05, matched
+
+        # Apply original non-linear boost logic
         prob = max([self.SCAM_PATTERN_WEIGHTS[cat] for cat in weighted_hits])
-        
-        # APPLY MULTIPLIERS FOR VOLUME:
-        # Instead of adding weights, we multiply the baseline to reach high numbers fast.
-        n = len(weighted_hits)
+        n = len(set(weighted_hits))
         if n == 2: prob *= 1.35
-        if n == 3: prob *= 1.60
-        if n >= 4: prob *= 1.90
-        
-        # Hard-coded dangerous combinations
+        elif n == 3: prob *= 1.60
+        elif n >= 4: prob *= 1.90
+
+        # Hard-coded dangerous combinations from original code
         dangerous_sets = [
-            {"Lifestyle Flex", "Authority / Mentorship"},
-            {"Romance + Future Promise", "Small Test Ask"},
+            {"Lifestyle Flex", "Authority / Mentorship"}, 
+            {"Romance + Future Promise", "Small Test Ask"}, 
             {"Withdrawal Trap", "Trust Reversal"}
         ]
         for combo in dangerous_sets:
-            if combo.issubset(weighted_hits): 
-                prob = max(prob, 0.94)
+            if combo.issubset(set(weighted_hits)): prob = max(prob, 0.94)
         
-        # Withdrawal Traps are almost always 95%+
-        if "Withdrawal Trap" in weighted_hits:
-            prob = max(prob, 0.97)
-
-        return min(prob, 0.99)
-
-    def get_ai_score(self, text: str) -> float:
-        if len(text.strip()) < 5: return 0.0
-        results = self.emotion_analyzer(text[:512])[0]
-        scores = {res['label']: res['score'] for res in results}
-        # In scams, high 'Fear' (Urgency) or high 'Joy' (Flattery) are red flags
-        return max(scores.get('fear', 0), scores.get('joy', 0))
+        if "Withdrawal Trap" in weighted_hits: prob = max(prob, 0.97)
+        return min(prob, 0.99), list(set(matched))
 
     def analyze(self, text: str) -> Dict:
-        counts = self.detect_counts(text)
-        kw_prob = self.compute_probability(counts)
-        ai_prob = self.get_ai_score(text)
+        windows = self._get_windows(text)
+        results = [self.compute_window_probability(w) for w in windows]
         
-        # HYBRID LOGIC REVISION:
-        # Instead of averaging (which lowers scores), we take the max 
-        # and treat the other as a 'Confidence Boost'.
+        # Final probability is based on the most dangerous window found
+        kw_prob = max([r[0] for r in results])
+        all_matched = list(set([cat for r in results for cat in r[1]]))
+        
+        # Document-wide AI score check
+        ai_prob = self._get_full_ai_score(text)
+        
+        # Original Hybrid Fusion Logic
         primary_score = max(kw_prob, ai_prob)
-        secondary_score = min(kw_prob, ai_prob)
-        
-        # If both systems agree there is risk, boost the primary score significantly
         if kw_prob > 0.4 and ai_prob > 0.4:
-            # Formula: moves the score halfway from its current position to 1.0
+            # Moves the score halfway from its current position to 1.0
             final_prob = primary_score + (1 - primary_score) * 0.6
         else:
             final_prob = primary_score
@@ -175,14 +170,12 @@ class BehavioralScamDetector:
         return {
             'probability': final_prob,
             'percent': round(final_prob * 100, 1),
-            'matched_categories': list(counts.keys())
+            'matched_categories': all_matched
         }
 
 # ──────────────────────────── UI FUNCTIONS ────────────────────────────
 def banner(title:str):
-    print("\n"+"="*80)
-    print(title.center(80))
-    print("="*80+"\n")
+    print("\n"+"="*80 + f"\n{title.center(80)}\n" + "="*80+"\n")
 
 def print_risk_interpretation(prob:float, categories):
     percent = prob * 100
@@ -199,18 +192,17 @@ def print_risk_interpretation(prob:float, categories):
         print(f"Matched Indicators: {', '.join(categories)}")
     print("\nAction: Do not share financial info or send money.")
 
-# ──────────────────────────── MAIN ────────────────────────────
 def main():
     try:
-        detector = BehavioralScamDetector()
-        banner("PIG-BUTCHERING & ROMANCE SCAM ANALYZER")
+        detector = AdvancedBehavioralDetector()
+        banner("PIG-BUTCHERING & ROMANCE SCAM ANALYZER (V2)")
         while True:
             print("Paste the suspected message below:")
+            print("PRESS CONTROL C TO EXIT")
             msg = sys.stdin.readline().strip()
             if not msg: continue
             
-            print("\nAnalyzing behavioral markers...\n")
-            time.sleep(0.3)
+            print("\nAnalyzing behavioral markers across document windows...\n")
             result = detector.analyze(msg)
             print_risk_interpretation(result['probability'], result['matched_categories'])
             print("-" * 80 + "\n")
