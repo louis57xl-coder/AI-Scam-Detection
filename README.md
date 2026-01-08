@@ -8,7 +8,9 @@ Plaintext
 
 ------------------------------------------------------------
 Paste the suspected message below:
+
 PRESS CONTROL C TO EXIT
+
 "Just got back from the dealer. Bought the new Porsche. Sending you a pic. This is what financial freedom looks like, my love. No bank loans. Just pure profit from yield farming and liquidity pools. I'm sitting here in my penthouse, watching the city lights, and all I can think about is you riding me, your legs wrapped around me, moaning my name as I thrust deep into you. I want to tie you up and spoil you sexually in this luxury. I want us to fuck on a bed of money. To get there, I need you as my investment partner. I'm giving you view-only access to my exchange dashboard right now. Look at the portfolio balance. See the APY—it's locked at 45%. I want you to allocate funds from your savings. It's a strategic reallocation. I'll set the leverage settings and stop-loss orders. Transfer $25,000 USDC to this wallet address. This is our joint investment. Our financial foreplay. Send the confirmation screenshot, and I'll video call you and do exactly what you tell me to. The market is moving. This window closes in 10 minutes. Don't miss our chance."
 
 Analyzing behavioral markers across document windows...
@@ -97,4 +99,5 @@ F1-Score: 92.1%
 
 📄 License
 Distributed under the MIT License. See LICENSE for more information.
+
 
