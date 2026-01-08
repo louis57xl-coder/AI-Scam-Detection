@@ -262,7 +262,7 @@ def print_risk_interpretation(prob: float, categories):
 def main():
     try:
         detector = AdvancedBehavioralDetector()
-        banner("PIG-BUTCHERING & ROMANCE SCAM ANALYZER (V1.2 - Sexual Grooming + Expanded Coverage)")
+        banner("PIG-BUTCHERING & ROMANCE SCAM ANALYZER (V1.1 - Sexual Grooming + Expanded Coverage)")
         while True:
             print("Paste the suspected message below:")
             print("PRESS CONTROL C TO EXIT")
@@ -280,4 +280,5 @@ def main():
         sys.exit(0)
 
 if __name__ == "__main__":
+
     main()
