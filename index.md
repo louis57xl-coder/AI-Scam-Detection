@@ -3,6 +3,10 @@ title: AI Scam Detection – Open Source Python Project
 description: AI Scam Detection is an open-source Python project for detecting pig butchering scams, romance fraud, and social engineering patterns using Python.
 ---
 
+Created By Louis Iacoletti <a href="resume.pdf" target="_blank">View My Resume</a>
+
+---
+
 # AI Scam Detection 🛡️
 
 ![GitHub repo stars](https://img.shields.io/github/stars/louis57xl-coder/AI-Scam-Detection)
