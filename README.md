@@ -4,9 +4,9 @@ Standalone Windows Application
 📦 What You Get - 
 Two Versions are Available:
 
-Version	File Name	Size	Requirements
 Windows Executable	scamcheck.exe	210.8 MB	Windows 7+ (or) a 
 Python Script	scamcheck.py	~20 KB	Python 3.8+
+
 🖥️ Real Application Screenshot \& Detection Example
 The Application You're Running:
 
@@ -236,6 +236,7 @@ Consult real friends about suspicious contacts
 Download scamcheck.exe, double-click, and stay safe. 🔒
 
 *ScamCheck v2.01 - 210.8 MB of scam protection in one file.*
+
 
 
 
