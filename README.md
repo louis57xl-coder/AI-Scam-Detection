@@ -33,7 +33,7 @@ Start analyzing suspicious messages immediately
 
 That's it! No installation, no Python, no dependencies.
 
-Option 2: For Developers/Python Users
+🚀 Quick Start — Option 2: For Developers/Python/Apple/Mac  Users
 Download scamcheck.py
 
 Install one dependency:
@@ -63,6 +63,7 @@ Why it was flagged:
 
 📖 How to Use ScamCheck
 Step-by-Step Guide:
+
 Launch scamcheck.exe (or run python scamcheck.py)
 
 Copy suspicious text from:
@@ -209,14 +210,6 @@ AI emotion analysis integration
 
 Complete offline operation
 
-v1.5 (December 2025)
-
-Command-line only version
-
-Basic pattern matching
-
-Required Python installation
-
 🎯 The Bottom Line
 ScamCheck is your AI-powered scam detector that:
 
@@ -243,6 +236,7 @@ Consult real friends about suspicious contacts
 Download scamcheck.exe, double-click, and stay safe. 🔒
 
 *ScamCheck v2.01 - 210.8 MB of scam protection in one file.*
+
 
 
 
