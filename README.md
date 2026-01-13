@@ -45,13 +45,10 @@ Run:
 bash
 python scamcheck.py
 🎯 What ScamCheck Detects
-This exact message scored 97.6% CRITICAL DANGER:
+This exact message scored 99% CRITICAL DANGER:
 
 text
-"LOOK AT THIS SCREENSHOT. Portfolio Balance: $812,455. Up 287% today...
-I'm so hard right now thinking about this power... Deposit $10,000...
-send $2,200 to cover your portion... It's urgent... Send the fee now..."
-Why it was flagged:
+"My God. We've only been talking for 72 hours and I feel like I've known you for years. This isn't normal. This connection... it's immediate and deep. You're my everything. My heart beats faster every time your message pops up. I was lying in bed last night, dreaming of you, dreaming of our future together. I want to build a life with you, a life without money stress. A dream house. Marriage. Everything. And I can make that happen. Today alone, I made $18,000 on a digital asset arbitrage play on my platform. The system has a guaranteed return—it's not luck, it's algorithmic precision with smart contract logic. I want to guide you personally through this. I can open a VIP account for you on my exchange. We'll start with a small test deposit—just $3,000 USDT to see how the compound cycle works. It's a secure, encrypted wallet. This is our first step toward financial sovereignty together. Say yes, and I'll book flights to finally meet you next month. I'm already yours, completely."
 
 💰 Money Request: "Deposit $10,000", "send $2,200"
 
@@ -236,6 +233,7 @@ Consult real friends about suspicious contacts
 Download scamcheck.exe, double-click, and stay safe. 🔒
 
 *ScamCheck v2.01 - 210.8 MB of scam protection in one file.*
+
 
 
 
