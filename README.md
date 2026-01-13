@@ -14,35 +14,6 @@ The Application You're Running:
 
 ScamCheck can analyze text copied directly from social media platforms, dating applications, and private messaging services to detect early indicators of romance scams and financial fraud. Users can paste conversations from dating apps such as Tinder, Bumble, Hinge, Match, OkCupid, Plenty of Fish (POF), eHarmony, Zoosk, Coffee Meets Bagel, and Facebook Dating, as well as social and messaging platforms including Facebook, Instagram, X (Twitter), TikTok, WhatsApp, Telegram, Snapchat, Discord, LinkedIn, SMS, and email. The system evaluates emotional manipulation, rapid relationship escalation, secrecy requests, urgency framing, investment narratives, cryptocurrency pitches, wire transfer or gift card requests, and grooming behaviors, providing an early-warning risk assessment before financial or emotional harm occurs.
 
-What you see when you run ScamCheck:
-
-text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                   ScamCheck - Romance Scam Analyzer                          │
-├──────────────────────────────────────────────────────────────────────────────┤
-│ Analysis Results:                                                            │
-│                                                                              │
-│ ============================================================================ │
-│                             Analyzing...                                     │
-│ ============================================================================ │
-│                                                                              │
-│ 🔴  CRITICAL DANGER — 97.6%                                                  │
-│                                                                              │
-│ Matched Indicators: sexual\_grooming, money\_request, urgency\_crisis           │
-│                                                                              │
-│ Action: Do not share financial info or send money.                           │
-│ ---------------------------------------------------------------------------- │
-│                                                                              │
-├──────────────────────────────────────────────────────────────────────────────┤
-│ Paste suspected message / conversation here:                                 │
-│                                                                              │
-│ "LOOK AT THIS SCREENSHOT. Portfolio Balance: $812,455. Up 287% today...      │
-│ I'm so hard right now thinking about this power... Deposit $10,000...        │
-│ send $2,200 to cover your portion... It's urgent... Send the fee now..."     │
-│                                                                              │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                        \[Analyze Message]      \[Clear Input]                  │
-└──────────────────────────────────────────────────────────────────────────────┘
 🚀 Quick Start
 Option 1: For Everyone (No Tech Skills Needed)
 Download scamcheck.exe (210.8 MB)
@@ -265,5 +236,6 @@ Consult real friends about suspicious contacts
 Download scamcheck.exe, double-click, and stay safe. 🔒
 
 *ScamCheck v2.01 - 210.8 MB of scam protection in one file.*
+
 
 
