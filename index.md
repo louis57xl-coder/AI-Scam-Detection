@@ -56,12 +56,18 @@ text
 - **Total Words Tested**: 2,480
 - **False Negatives**: 0%
 
-## 📦 **Installation**
+🚀 Quick Start — Option 1: For Everyone (No Technical Skills Required)
 
-### **Option 1: Windows Executable (Easiest)**
-1. Download `scamcheck.exe` (210.8 MB)
-2. Double-click to launch (no installation needed)
-3. Wait 10-20 seconds for AI models to load (first time only)
+Download scamcheck.exe (210.8 MB) from the Releases section
+(Select scamcheck v2.01 – High-Performance AI Security Engine on the left side of the page.)
+
+Windows may display a security prompt such as “Are you sure you want to download this file?” or “Windows protected your PC.”
+
+This is normal for new or unsigned open-source executables.
+
+Click More info → Run anyway to proceed.
+
+Double-click the file to launch ScamCheck.
 
 ### **Option 2: Python Script**
 ```bash
