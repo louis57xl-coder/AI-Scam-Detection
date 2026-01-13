@@ -35,13 +35,6 @@ ScamCheck can analyze text copied directly from social media platforms, dating a
 
 text
 
-**Test Statistics:**
-- **🔴 CRITICAL DANGER**: 9 examples (90%)
-- **🟠 HIGH RISK**: 1 example (10%) 
-- **Overall Accuracy**: 95.9%
-- **Total Words Tested**: 2,480
-- **False Negatives**: 0%
-
 ![screenshot](https://github.com/user-attachments/assets/d306372c-5a14-489a-b79f-a1384d7c0592)
 ---
 
@@ -56,7 +49,12 @@ text
 - **Offline operation** - privacy-focused, no data sent
 - **Early warning system** - detects grooming before financial requests
 
----
+**Test Statistics:**
+- **🔴 CRITICAL DANGER**: 9 examples (90%)
+- **🟠 HIGH RISK**: 1 example (10%) 
+- **Overall Accuracy**: 95.9%
+- **Total Words Tested**: 2,480
+- **False Negatives**: 0%
 
 ## 📦 **Installation**
 
@@ -85,18 +83,6 @@ bash
 python scamcheck.py
 Example Test Case Detected:
 
-text
-===============================================================================
-                            🔴  CRITICAL DANGER — 99.0%
-===============================================================================
-
-Matched Indicators: sexual_grooming, money_request, love_bombing_intensity, 
-                    urgency_crisis, Lifestyle Flex, Authority / Mentorship, 
-                    Small Test Ask, Romance + Future Promise, Withdrawal Trap, 
-                    Emotional Isolation, early_grooming, Fast Emotional Bonding
-
-Action: Do not share financial info or send money.
--------------------------------------------------------------------------------
 🧪 Test Cases & Effectiveness
 Complete Test Suite Results:
 Example	Risk Level	Score	Matched Patterns	Word Count
