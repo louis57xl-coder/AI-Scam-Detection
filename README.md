@@ -10,6 +10,10 @@ Python Script	scamcheck.py	~20 KB	Python 3.8+
 🖥️ Real Application Screenshot \& Detection Example
 The Application You're Running:
 
+🔍 Multi-Platform Message Analysis for Romance & Money Scams
+
+ScamCheck can analyze text copied directly from social media platforms, dating applications, and private messaging services to detect early indicators of romance scams and financial fraud. Users can paste conversations from dating apps such as Tinder, Bumble, Hinge, Match, OkCupid, Plenty of Fish (POF), eHarmony, Zoosk, Coffee Meets Bagel, and Facebook Dating, as well as social and messaging platforms including Facebook, Instagram, X (Twitter), TikTok, WhatsApp, Telegram, Snapchat, Discord, LinkedIn, SMS, and email. The system evaluates emotional manipulation, rapid relationship escalation, secrecy requests, urgency framing, investment narratives, cryptocurrency pitches, wire transfer or gift card requests, and grooming behaviors, providing an early-warning risk assessment before financial or emotional harm occurs.
+
 What you see when you run ScamCheck:
 
 text
@@ -261,4 +265,5 @@ Consult real friends about suspicious contacts
 Download scamcheck.exe, double-click, and stay safe. 🔒
 
 *ScamCheck v2.01 - 210.8 MB of scam protection in one file.*
+
 
