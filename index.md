@@ -7,6 +7,10 @@ description: ScamCheck v2.01 is an open-source Python project for detecting roma
 
 **Created By Louis Iacoletti** [View My Resume](https://github.com/louis57xl-coder/AI-Scam-Detection/blob/main/resume.pdf)
 
+🔍 Multi-Platform Message Analysis for Romance & Money Scams
+
+ScamCheck can analyze text copied directly from social media platforms, dating applications, and private messaging services to detect early indicators of romance scams and financial fraud. Users can paste conversations from dating apps such as Tinder, Bumble, Hinge, Match, OkCupid, Plenty of Fish (POF), eHarmony, Zoosk, Coffee Meets Bagel, and Facebook Dating, as well as social and messaging platforms including Facebook, Instagram, X (Twitter), TikTok, WhatsApp, Telegram, Snapchat, Discord, LinkedIn, SMS, and email. The system evaluates emotional manipulation, rapid relationship escalation, secrecy requests, urgency framing, investment narratives, cryptocurrency pitches, wire transfer or gift card requests, and grooming behaviors, providing an early-warning risk assessment before financial or emotional harm occurs.
+
 ![GitHub repo stars](https://img.shields.io/github/stars/louis57xl-coder/AI-Scam-Detection)
 ![GitHub forks](https://img.shields.io/github/forks/louis57xl-coder/AI-Scam-Detection)
 ![Python version](https://img.shields.io/badge/python-3.8+-blue)
