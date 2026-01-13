@@ -1,7 +1,7 @@
 🚨 ScamCheck v2.01 - Romance Scam Detector
 Standalone Windows Application 
 
-📦 What You Get
+📦 What You Get - 
 Two Versions are Available:
 
 Version	File Name	Size	Requirements
@@ -236,6 +236,7 @@ Consult real friends about suspicious contacts
 Download scamcheck.exe, double-click, and stay safe. 🔒
 
 *ScamCheck v2.01 - 210.8 MB of scam protection in one file.*
+
 
 
 
