@@ -17,7 +17,7 @@ ScamCheck can analyze text copied directly from social media platforms, dating a
 ![Windows Executable](https://img.shields.io/badge/Windows-Executable-green)
 ![Accuracy](https://img.shields.io/badge/Accuracy-95.9%25-red)
 
-**ScamCheck v2.01** is an open-source Python project designed to identify common scam patterns in messages, including:
+**ScamCheck v2.01** is an open-source Python project designed to identify common scam patterns in messages, including: 
 
 - Romance and relationship fraud  
 - Financial fraud and investment scams  
