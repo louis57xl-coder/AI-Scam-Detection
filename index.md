@@ -44,7 +44,7 @@ text
 - **Python-based**, easy to extend and customize
 - **Open-source** and actively maintained
 - **Works with AI-assisted heuristics** and emotion analysis
-- **Standalone Windows executable** (210.8 MB) - no installation needed
+- **Standalone Windows executable** (205.88 MB) - no installation needed
 - **Real-time GUI interface** with color-coded risk levels
 - **Offline operation** - privacy-focused, no data sent
 - **Early warning system** - detects grooming before financial requests
