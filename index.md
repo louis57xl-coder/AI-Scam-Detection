@@ -24,7 +24,7 @@ ScamCheck can analyze text copied directly from social media platforms, dating a
 - Social engineering attempts  
 - Online manipulation and grooming tactics
 
-**Now available as both a standalone Windows executable (205.88 MB) and Python script with 95.9% proven accuracy.**
+**Now available as both a standalone Microsoft Windows executable (205.88 MB) or for Mac\linux users Python script with 95.9% proven accuracy.**
 
 ---
 
@@ -74,6 +74,7 @@ Double-click the file to launch ScamCheck.
 git clone https://github.com/louis57xl-coder/AI-Scam-Detection.git
 cd AI-Scam-Detection
 pip install -r requirements.txt
+
 💻 Usage
 Windows Executable:
 Launch scamcheck.exe
@@ -117,7 +118,7 @@ GitHub repository: AI Scam Detection
 
 README: Complete Documentation & Test Results
 
-Windows Download: scamcheck.exe (210.8 MB)
+Windows Download: scamcheck.exe (205.88 MB)
 
 Python Script: scamcheck.py
 
