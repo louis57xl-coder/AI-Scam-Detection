@@ -16,8 +16,8 @@ ScamCheck can analyze text copied directly from social media platforms, dating a
 
 🚀 Quick Start — Option 1: Windows Executable	scamcheck.exe	210.8 MB - For Everyone (No Technical Skills Required)
 
-Download scamcheck.exe (210.8 MB) from the Releases section
-(Select scamcheck v2.01 – High-Performance AI Security Engine on the left side of the page.)
+Download scamcheck.exe (205.88 MB) from the Releases section
+(Select scamcheck v2.02 – High-Performance AI Security Engine on the left side of the page.)
 
 Windows may display a security prompt such as “Are you sure you want to download this file?” or “Windows protected your PC.”
 
@@ -233,4 +233,5 @@ Consult real friends about suspicious contacts
 Download scamcheck.exe, double-click, and stay safe. 🔒
 
 *ScamCheck v2.01 - 210.8 MB of scam protection in one file.*
+
 
