@@ -5,7 +5,7 @@ description: ScamCheck v2.01 is an open-source Python project for detecting roma
 
 # ScamCheck v2.01 🛡️
 
-**Created By Louis Iacoletti** [View My Resume](https://github.com/louis57xl-coder/AI-Scam-Detection/blob/main/resume.pdf)
+**Created By Louis Iacoletti**
 
 🔍 Multi-Platform Message Analysis for Romance & Money Scams
 
