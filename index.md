@@ -1,9 +1,9 @@
 ---
-title: ScamCheck v2.01 – Open Source Python Project
-description: ScamCheck v2.01 is an open-source Python project for detecting romance scams, financial fraud, and social engineering patterns using Python and AI.
+title: ScamCheck v2.02 – Open Source Python Project
+description: ScamCheck v2.02 is an open-source Python project for detecting romance scams, financial fraud, and social engineering patterns using Python and AI.
 ---
 
-# ScamCheck v2.01 🛡️
+# ScamCheck v2.02 🛡️
 
 **Created By Louis Iacoletti**
 
@@ -17,14 +17,14 @@ ScamCheck can analyze text copied directly from social media platforms, dating a
 ![Windows Executable](https://img.shields.io/badge/Windows-Executable-green)
 ![Accuracy](https://img.shields.io/badge/Accuracy-95.9%25-red)
 
-**ScamCheck v2.01** is an open-source Python project designed to identify common scam patterns in messages, including: 
+**ScamCheck v2.02** is an open-source Python project designed to identify common scam patterns in messages, including: 
 
 - Romance and relationship fraud  
 - Financial fraud and investment scams  
 - Social engineering attempts  
 - Online manipulation and grooming tactics
 
-**Now available as both a standalone Windows executable (210.8 MB) and Python script with 95.9% proven accuracy.**
+**Now available as both a standalone Windows executable (205.88 MB) and Python script with 95.9% proven accuracy.**
 
 ---
 
@@ -58,8 +58,8 @@ text
 
 🚀 Quick Start — Option 1: For Everyone (No Technical Skills Required)
 
-Download scamcheck.exe (210.8 MB) from the Releases section
-(Select scamcheck v2.01 – High-Performance AI Security Engine on the left side of the page.)
+Download scamcheck.exe (205.88 MB) from the Releases section
+(Select scamcheck v2.02 – High-Performance AI Security Engine on the left side of the page.)
 
 Windows may display a security prompt such as “Are you sure you want to download this file?” or “Windows protected your PC.”
 
