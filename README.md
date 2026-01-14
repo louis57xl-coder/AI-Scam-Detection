@@ -195,9 +195,9 @@ Romance Scam Prevention: https://www.staysafeonline.org
 Report Scams: https://reportfraud.ftc.gov
 
 🆕 Version History
-v2.01 (January 2026) - CURRENT
+v2.02 (January 2026) - CURRENT
 
-Standalone Windows executable (210.8 MB)
+Standalone Windows executable (205.88 MB)
 
 GUI interface with real-time analysis
 
@@ -232,7 +232,8 @@ Consult real friends about suspicious contacts
 
 Download scamcheck.exe, double-click, and stay safe. 🔒
 
-*ScamCheck v2.01 - 205.88 MB of scam protection in one file.*
+*ScamCheck v2.02 - 205.88 MB of scam protection in one file.*
+
 
 
 
