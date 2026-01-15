@@ -69,7 +69,8 @@ Click More info → Run anyway to proceed.
 
 Double-click the file to launch ScamCheck.
 
-### **Option 2: Python Script**
+🚀 Quick Start — Option 2: Python Script
+
 ```bash
 git clone https://github.com/louis57xl-coder/AI-Scam-Detection.git
 cd AI-Scam-Detection
