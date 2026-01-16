@@ -5,13 +5,6 @@ description: ScamCheck v2.02 is an open-source Python project for detecting roma
 
 # ScamCheck v2.02 🛡️
 
-<h2>Hey Folks!</h2>
-  
-  <video controls width="720" style="max-width:100%;">
-    <source src="heyfolks.mp4" type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-  </video>
-
 **Created By Louis Iacoletti**
 
 🔍 Multi-Platform Message Analysis for Romance & Money Scams
@@ -159,3 +152,8 @@ Supplement, don't replace: Use with common sense and intuition
 Privacy first: The executable works completely offline
 
 Remember: If something feels wrong online, trust your instincts. Never send money to online-only relationships.
+
+<video controls width="640">
+  <source src="heyfolks.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
