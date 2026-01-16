@@ -26,6 +26,10 @@ ScamCheck can analyze text copied directly from social media platforms, dating a
 
 **Now available as both a standalone Microsoft Windows executable (205.88 MB) or for Mac\linux users Python script with 95.9% proven accuracy.**
 
+<video controls width="640">
+  <source src="heyfolks.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ---
 
 ## 📊 **Real User Interface with Test Data**
@@ -152,8 +156,3 @@ Supplement, don't replace: Use with common sense and intuition
 Privacy first: The executable works completely offline
 
 Remember: If something feels wrong online, trust your instincts. Never send money to online-only relationships.
-
-<video controls width="640">
-  <source src="heyfolks.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
