@@ -19,12 +19,19 @@ Visual Severity: Clean, modern GUI with colored risk level squares (Low → Very
 Streamlined: One powerful analysis engine with higher accuracy on complex, multi-stage scams.
 
 
-Now available as a standalone Windows executable (~210 MB) or lightweight Python script. 
+Now available as a standalone Windows executable (~19.5 MB) or lightweight Python script. 
 
 <video controls width="640"> <source src="heyfolks.mp4" type="video/mp4"> Your browser does not support the video tag. </video> 
 
 📊 Real User Interface with Test Data
 What Users Actually See When Using ScamCheck v3.0:
+
+<div align="center">
+  <a href="https://github.com/louis57xl-coder/AI-Scam-Detection">
+    <img src="screenshot.jpg" alt="ScamCheck v3.0 Forensic Analysis Dashboard" width="800">
+  </a>
+  <p><em>Figure 1: Gemini-Powered Deep Analysis Interface (99/100 Rating)</em></p>
+</div>
 
 🚀 Features
 
@@ -63,5 +70,6 @@ False Positives: Very affectionate legitimate messages may score Medium – use 
 Never Send Money: If results show [High] or [Very High], stop contact immediately.
 
 Protect yourself. Analyze before you send. 🔒 
+
 
 ScamCheck v3.0 – Powered by Gemini. One smart file. Zero trust issues.
