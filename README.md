@@ -22,7 +22,7 @@ How to Set Up Your Environment:
 
 
 
-Obtain API Key: Visit Google AI Studio https://aistudio.google.com/api-keys and click "Get API key" to create a key in a new project.  Name the project whatever you want and generate a key.  Then cut and paste it into the key window
+IMPORTANT:  TO USE THIS APPLICATION USERS MUST FIRST obtain their own API Key.  Visit Google AI Studio https://aistudio.google.com/api-keys and click "Get API key" to create a key in a new project.  Name the project whatever you want and then generate a key.  Then cut and paste it into the key window in the v31.py or v31.exe application and press the green "Apply Key" button. Then cut and paste the text you want to check into the "PASTE SUSPICIOUS TEXT BELOW" window and press the START DEEP SCAN button. 
 
 
 
@@ -151,4 +151,5 @@ Created by Louis Iacoletti
 
 
 Protect yourself. Analyze before you send. 🔒
+
 
