@@ -1,0 +1,21 @@
+# Use an official Python runtime as a parent image
+FROM python:3.11-slim
+
+# Install system dependencies for Tkinter (X11 for GUI)
+RUN apt-get update && apt-get install -y \
+    python3-tk \
+    tk-dev \
+    libx11-6 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Install the required Gemini library
+RUN pip install --no-cache-dir google-genai
+
+# Copy the current directory contents into the container
+COPY . /app
+
+# Command to run your app
+CMD ["python", "v3.py"]
