@@ -11,7 +11,7 @@ Windows Executable (v31.exe): 20 MB (Standalone, no installation required)
 
 
 
-Python Source Code (v3.py): 7 KB (Requires Python 3.11+)
+Python Source Code (v31.py): 7 KB (Requires Python 3.11+)
 
 🏗️ Project Setup \& Gemini API Integration
 ScamCheck v3.1 is powered by the Google Gemini 2.5 Flash-Lite engine (or latest engine when 2.5 Flash Lite expires on 6-17-2026), providing advanced behavioral forensic analysis. An active internet connection and a free Gemini API key are mandatory for the tool to function.
@@ -151,5 +151,6 @@ Created by Louis Iacoletti
 
 
 Protect yourself. Analyze before you send. 🔒
+
 
 
