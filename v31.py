@@ -18,7 +18,7 @@ except ImportError:
 class ScamCheckApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("ScamScanner Pro v3.2 - Stable")
+        self.root.title("ScamScanner Pro v3.1 - Stable")
         self.root.geometry("1100x950") 
 
         # --- TOP API KEY SECTION ---
@@ -149,4 +149,5 @@ if __name__ == "__main__":
         import tkinter.messagebox
         err = traceback.format_exc()
         dummy = tk.Tk(); dummy.withdraw()
+
         tkinter.messagebox.showerror("Startup Crash", err)
