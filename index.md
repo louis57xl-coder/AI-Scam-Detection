@@ -9,9 +9,9 @@ to deliver smarter, faster, and more accurate detection of romance scams, pig-bu
 ---
 
 ### **📊 Real User Interface with Test Data**
-**What Users Actually See When Using ScamCheck v3.1/3.2:**
+**What Users Actually See When Using ScamCheck v3.1**
 
-![ScamCheck v3.1/3.2 Dashboard Interface](screenshot.jpg)
+![ScamCheck v3.1 Dashboard Interface](screenshot.jpg)
 
 <br>
 
@@ -43,7 +43,8 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 
 ---
 
-**ScamCheck v3.1/3.2 – Powered by Gemini. One smart file. Zero trust issues.**
+**ScamCheck v3.1 – Powered by Gemini. One smart file. Zero trust issues.**
+
 
 
 
