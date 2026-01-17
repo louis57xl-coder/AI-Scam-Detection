@@ -30,11 +30,11 @@ API Key Placement:
 
 
 
-In v3.py: Open the file and enter your free Gemini Key in Gemini API Key box and press "Apply Key."
+In v31.py: Open the file and enter your free Gemini Key in Gemini API Key box and press "Apply Key."
 
 
 
-In v3.exe: Open the file and enter your free Gemini Key in Gemini API Key box and press "Apply Key."
+In v31.exe: Open the file and enter your free Gemini Key in Gemini API Key box and press "Apply Key."
 
 
 
@@ -151,6 +151,7 @@ Created by Louis Iacoletti
 
 
 Protect yourself. Analyze before you send. 🔒
+
 
 
 
