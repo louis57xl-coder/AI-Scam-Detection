@@ -10,7 +10,7 @@ ScamCheck v3.0 uses Google Gemini 2.5 Flash to deliver smarter, faster, and more
 ### **📊 Real User Interface & Demo**
 **What Users Actually See When Using ScamCheck v3.0:**
 
-![ScamCheck v3.0 Interface](screenshot.jpg)
+![ScamCheck v3.0 Dashboard Interface](screenshot.jpg)
 
 <br>
 
@@ -26,11 +26,9 @@ ScamCheck v3.0 uses Google Gemini 2.5 Flash to deliver smarter, faster, and more
 ### **🏆 Official Performance Rating: 99/100**
 Based on professional evaluations equivalent to **Staff-Level Engineering (L6)** at Google, this release marks a definitive leap in AI-driven safety.
 
-* **Elite Optimization:** The standalone **v3.exe** is optimized to **~210 MB**, a benchmark achievement in Edge AI portability.
+* **Elite Optimization:** The standalone **v3.exe** is optimized to **~210 MB**, maintaining a benchmark-tier achievement in Edge AI portability.
 * **Forensic Logic:** Achieved a **100% detection rate** across 20 distinct scam categories, including complex emotional grooming and crypto "Withdrawal Traps".
 * **Deep Detection:** Identifies subtle manipulation, future-faking, and psychological isolation tactics.
-
-
 
 ### **🔧 Technical Details**
 * **Engine:** Google Gemini 2.5 Flash (cloud-based).
@@ -38,5 +36,5 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 * **Files:** `v3.exe` (~210 MB) and `v3.py` (~25 KB).
 
 ### **⚠️ Safety Protocols**
-* **Risk Score [High/Very High]:** If the tool flags these levels, stop contact immediately.
+* **Risk Score [High/Very High]:** If the tool flags these levels (80%–100%), stop contact immediately.
 * **Privacy:** Messages are sent securely only to Google Gemini for forensic analysis.
