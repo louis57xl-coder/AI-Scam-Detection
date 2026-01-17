@@ -35,7 +35,7 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 * **Engine:** Google Gemini 2.5 Flash (cloud-based) or latest Google Gemini Flash Version (cloud based)
 * **GUI:** Tkinter with colored background tags for risk squares.
 * **Windows Executable (v31.exe):** ~19.5 MB.
-* **Python Script (v31.py):** ~5 KB.
+* **Python Script (v31.py):** ~7 KB.
 
 ### **⚠️ Important Safety Notes**
 * **False Positives:** Very affectionate legitimate messages may score Medium – use judgment.
@@ -44,6 +44,7 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 ---
 
 **ScamCheck v3.1 – Powered by Gemini. One smart file. Zero trust issues.**
+
 
 
 
