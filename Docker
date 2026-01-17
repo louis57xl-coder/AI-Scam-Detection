@@ -1,0 +1,23 @@
+# Step 1: Use a specialized image that has Wine and PyInstaller pre-configured
+FROM cdrx/pyinstaller-windows:python3
+
+# Step 2: Set the working directory inside the container
+WORKDIR /src
+
+# Step 3: Copy your script into the container
+# This assumes your file is named 'v31.py'
+COPY v31.py .
+
+# Step 4: Install your specific library (google-genai) inside the Wine environment
+# We use the 'wine pip' command to ensure it's installed for the Windows emulation
+RUN wine pip install google-genai
+
+# Step 5: Run PyInstaller to create the EXE
+# --onefile: Single executable
+# --windowed: No black console box
+# --name: The final filename
+RUN pyinstaller --onefile --windowed --name "ScamScanner_Pro_v3_1" v31.py
+
+# Step 6: Define the output
+# When the container runs, it will place the EXE in the /src/dist folder
+CMD ["cp", "-r", "dist/.", "/out/"]
