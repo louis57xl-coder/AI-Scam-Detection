@@ -8,15 +8,17 @@
 ### **📊 Real User Interface & Demo**
 **What Users Actually See When Using ScamCheck v3.0:**
 
+📊 Real User Interface with Test Data
+What Users Actually See When Using ScamCheck v3.0:
+
 ![ScamCheck v3.0 Interface](screenshot.jpg)
 
 <div align="center">
-  <video width="640" controls>
-    <source src="heyfolks.mp4" type="video/mp4">
-    [cite_start]Your browser does not support the video tag. 
-  </video>
+  <video controls width="640"> 
+    <source src="heyfolks.mp4" type="video/mp4"> 
+    Your browser does not support the video tag. 
+  </video> 
 </div>
-
 ---
 
 ### **🏆 Official Performance Rating: 99/100**
@@ -35,3 +37,4 @@
 ### **⚠️ Safety Protocols**
 * [cite_start]**Risk Score [High/Very High]:** If the tool flags these levels, stop contact immediately[cite: 1].
 * [cite_start]**Privacy:** Messages are sent securely only to Google Gemini for forensic analysis.
+
