@@ -1,9 +1,9 @@
-# ScamCheck v3.1/3.2 🛡️
+# ScamCheck v3.1 / ScamScanner Pro v3.2 - Romance & Pig-Butchering Scam Detector Gemini-Powered Deep Analysis Edition Standalone Windows Application + Python Script 🛡️
 **Created By Louis Iacoletti (@1215lb)**
 
 **Gemini-Powered Deep Analysis Edition** | *Release Date: January 17, 2026*
 
-ScamCheck v3.1/3.2 uses Google Gemini 2.5 Flash (or latest Flash version since 2.5 Flash is set to expire in June 2026)
+ScamCheck v3.1 uses Google Gemini 2.5 Flash (or latest Flash version since 2.5 Flash is set to expire in June 2026)
 to deliver smarter, faster, and more accurate detection of romance scams, pig-butchering schemes, and financial manipulation in messages from any platform.
 
 ---
@@ -44,6 +44,7 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 ---
 
 **ScamCheck v3.1/3.2 – Powered by Gemini. One smart file. Zero trust issues.**
+
 
 
 
