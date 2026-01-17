@@ -23,6 +23,24 @@ Now available as a standalone Windows executable (~19.5 MB) or lightweight Pytho
 
 <video controls width="640"> <source src="heyfolks.mp4" type="video/mp4"> Your browser does not support the video tag. </video> 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 📊 Real User Interface with Test Data
 What Users Actually See When Using ScamCheck v3.0:
 
@@ -73,3 +91,4 @@ Protect yourself. Analyze before you send. 🔒
 
 
 ScamCheck v3.0 – Powered by Gemini. One smart file. Zero trust issues.
+
