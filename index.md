@@ -3,7 +3,8 @@
 
 **Gemini-Powered Deep Analysis Edition** | *Release Date: January 17, 2026*
 
-ScamCheck v3.1/3.2 uses Google Gemini 2.5 Flash (or latest Flash version after 2.5 Flash expires in June 2016" to deliver smarter, faster, and more accurate detection of romance scams, pig-butchering schemes, and financial manipulation in messages from any platform.
+ScamCheck v3.1/3.2 uses Google Gemini 2.5 Flash (or latest Flash version since 2.5 Flash is set to expire in June 2026)
+to deliver smarter, faster, and more accurate detection of romance scams, pig-butchering schemes, and financial manipulation in messages from any platform.
 
 ---
 
@@ -43,5 +44,6 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 ---
 
 **ScamCheck v3.1/3.2 – Powered by Gemini. One smart file. Zero trust issues.**
+
 
 
