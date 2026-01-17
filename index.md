@@ -1,16 +1,16 @@
-# ScamCheck v3.1 🛡️
+# ScamCheck v3.1/3.2 🛡️
 **Created By Louis Iacoletti (@1215lb)**
 
 **Gemini-Powered Deep Analysis Edition** | *Release Date: January 17, 2026*
 
-ScamCheck v3.1 uses Google Gemini 2.5 Flash (or latest Flash version after 2.5 Flash expires in June 2016" to deliver smarter, faster, and more accurate detection of romance scams, pig-butchering schemes, and financial manipulation in messages from any platform.
+ScamCheck v3.1/3.2 uses Google Gemini 2.5 Flash (or latest Flash version after 2.5 Flash expires in June 2016" to deliver smarter, faster, and more accurate detection of romance scams, pig-butchering schemes, and financial manipulation in messages from any platform.
 
 ---
 
 ### **📊 Real User Interface with Test Data**
 **What Users Actually See When Using ScamCheck v3.1:**
 
-![ScamCheck v3.1 Dashboard Interface](screenshot.jpg)
+![ScamCheck v3.1/3.2 Dashboard Interface](screenshot.jpg)
 
 <br>
 
@@ -41,4 +41,5 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 * **Never Send Money:** If results show **[High]** or **[Very High]** (80%–100%), stop contact immediately.
 
 ---
-**ScamCheck v3.1 – Powered by Gemini. One smart file. Zero trust issues.**
+
+**ScamCheck v3.1/3.2 – Powered by Gemini. One smart file. Zero trust issues.**
