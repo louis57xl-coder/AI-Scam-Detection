@@ -31,7 +31,7 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 * **Deep Detection:** Identifies subtle manipulation, future-faking, sexual grooming, and isolation tactics.
 
 ### **🔧 Technical Details**
-* **Engine:** Google Gemini 2.5 Flash (cloud-based).
+* **Engine:** Google Gemini 2.5 Flash (cloud-based) or latest Google Gemini Flash Version (cloud based)
 * **GUI:** Tkinter with colored background tags for risk squares.
 * **Windows Executable (v3.exe):** ~19.5 MB.
 * **Python Script (v3.py):** ~5 KB.
@@ -43,4 +43,5 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 ---
 
 **ScamCheck v3.1/3.2 – Powered by Gemini. One smart file. Zero trust issues.**
+
 
