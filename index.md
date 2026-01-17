@@ -8,7 +8,7 @@ ScamCheck v3.1/3.2 uses Google Gemini 2.5 Flash (or latest Flash version after 2
 ---
 
 ### **📊 Real User Interface with Test Data**
-**What Users Actually See When Using ScamCheck v3.1:**
+**What Users Actually See When Using ScamCheck v3.1/3.2:**
 
 ![ScamCheck v3.1/3.2 Dashboard Interface](screenshot.jpg)
 
@@ -43,3 +43,4 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 ---
 
 **ScamCheck v3.1/3.2 – Powered by Gemini. One smart file. Zero trust issues.**
+
