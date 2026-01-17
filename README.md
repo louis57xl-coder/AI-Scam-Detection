@@ -18,16 +18,16 @@ ScamCheck v3.0 is powered by the Google Gemini 2.5 Flash-Lite engine, providing 
 
 How to Set Up Your Environment:
 
-Obtain API Key: Visit Google AI Studio and click "Get API key" to create a key in a new project. 
+Obtain API Key: Visit Google AI Studio https://aistudio.google.com/api-keys and click "Get API key" to create a key in a new project. 
 
 
 API Key Placement:
 
 
-In v3.py: Open the file and replace the placeholder in MY_API_KEY = "YOUR_KEY_HERE" with your key. 
+In v3.py: Open the file and Enter your free Gemini Key in MY_API_KEY = "YOUR_KEY_HERE" with your key. 
 
 
-In v3.exe: You will be prompted to enter and save the key upon your first launch of the application. 
+In v3.exe: Open the file and Enter your free Gemini Key in MY_API_KEY = "YOUR_KEY_HERE" with your key.
 
 
 
@@ -127,5 +127,6 @@ FBI IC3: www.ic3.gov
 
 Developer Support: Reach out on X: @1215lb. 
 Created by Louis Iacoletti
+
 
 Protect yourself. Analyze before you send. 🔒
