@@ -1,4 +1,4 @@
-ScamCheck v3.1 - Romance \& Pig-Butchering Scam Detector
+ScamCheck v3.1/v3.2  - Romance \& Pig-Butchering Scam Detector
 Gemini-Powered Deep Analysis Edition Standalone Windows Application + Python Script
 
 
@@ -151,4 +151,5 @@ Created by Louis Iacoletti
 
 
 Protect yourself. Analyze before you send. 🔒
+
 
