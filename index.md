@@ -6,6 +6,8 @@
 ScamCheck v3.1 uses Google Gemini 2.5 Flash (or latest Flash version since 2.5 Flash is set to expire in June 2026)
 to deliver smarter, faster, and more accurate detection of romance scams, pig-butchering schemes, and financial manipulation in messages from any platform.
 
+- Download v31.exe (Windows Executable) or v31.py (Python Script) from https://github.com/louis57xl-coder/AI-Scam-Detection
+- Downlad README.md for instuctions on how to get started
 ---
 
 ### **📊 Real User Interface with Test Data**
@@ -25,7 +27,7 @@ to deliver smarter, faster, and more accurate detection of romance scams, pig-bu
 ---
 
 ### **🏆 Official Performance Rating: 99/100**
-Based on professional evaluations equivalent to **Staff-Level Engineering (L6)** at Google, this release marks a definitive leap in AI-driven safety.
+Based on professional evaluations at Google, this release marks a definitive leap in AI-driven safety.
 
 * **Elite Optimization:** The standalone **v31.exe** is optimized to **~19.5 MB**, a benchmark achievement in Edge AI portability.
 * **Forensic Logic:** Achieved a **100% detection rate** across 20 distinct scam categories, including complex emotional grooming and crypto "Withdrawal Traps".
@@ -44,6 +46,7 @@ Based on professional evaluations equivalent to **Staff-Level Engineering (L6)**
 ---
 
 **ScamCheck v3.1 – Powered by Gemini. One smart file. Zero trust issues.**
+
 
 
 
