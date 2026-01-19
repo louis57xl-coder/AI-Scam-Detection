@@ -19,7 +19,7 @@ ScamCheck v3.1 is powered by the Google Gemini 2.5 Flash-Lite engine (or latest 
 
 How to Set Up Your Environment:
 
-1. Download v31.exe (Windows Executable) or v31.py (Python Script) from https://github.com/louis57xl-coder/AI-Scam-Detection  IMPORTANT: since you are downloading an unsigned Windows .exe file, you will need to tell GitHub that yes, you REALLY want to download v31.exe, or it will not let you download it.
+1. Download v31.exe (Windows Executable) or v31.py (Python Script) from https://github.com/louis57xl-coder/AI-Scam-Detection  IMPORTANT: since you are downloading an unsigned Windows .exe file, you will need to tell GitHub THREE TIMES that yes, you REALLY want to download v31.exe, or it will not let you download it.
    
 3. IMPORTANT: TO USE THIS APPLICATION USERS MUST FIRST obtain their own API Key. Create and copy your own API Key. Visit Google AI Studio https://aistudio.google.com/api-keys and click "Get API key" to create a key in a new project. Name the project whatever you want and then generate a key.
     
@@ -90,3 +90,4 @@ Developer Support: Reach out on X: @1215lb.
 Created by Louis Iacoletti
 
 Protect yourself. Analyze before you send. 🔒
+
