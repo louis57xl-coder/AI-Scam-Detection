@@ -6,7 +6,7 @@
 ScamCheck v3.1 uses Google Gemini 2.5 Flash (or latest Flash version since 2.5 Flash is set to expire in June 2026)
 to deliver smarter, faster, and more accurate detection of romance scams, pig-butchering schemes, and financial manipulation in messages from any platform.
 
-1. Download v31.exe (Windows Executable) or v31.py (Python Script) from https://github.com/louis57xl-coder/AI-Scam-Detection IMPORTANT: since you are downloading an unsigned Windows .exe file, you will need to tell GitHub that yes, you REALLY want to download v31.exe, or it will not let you download it.
+1. Download v31.exe (Windows Executable) or v31.py (Python Script) from https://github.com/louis57xl-coder/AI-Scam-Detection IMPORTANT: since you are downloading an unsigned Windows .exe file, you will need to tell GitHub THREE TIMES that yes, you REALLY want to download v31.exe, or it will not let you download it.
 2. IMPORTANT: TO USE THIS APPLICATION USERS MUST FIRST obtain their own API Key. Create and copy your own API Key. Visit Google AI Studio https://aistudio.google.com/api-keys and click "Get API key" to create a key in a new project. Name the project whatever you want and then generate a key. 
 3. Download README.md for additional information on how to get started using ScamCheck v3.1.
 ---
@@ -47,6 +47,7 @@ Based on professional evaluations at Google, this release marks a definitive lea
 ---
 
 **ScamCheck v3.1 – Powered by Gemini. One smart file. Zero trust issues.**
+
 
 
 
